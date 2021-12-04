@@ -5,11 +5,9 @@ async function main() {
     const highestPriceChartCanvas = document.querySelector('#highest-price-chart');
     const averagePriceChartCanvas = document.querySelector('#average-price-chart');
     /*
+    // I was not able to use the api, i tried it in the browser and it is block by malwarebyte
+        
     const response = await fetch('https://api.twelvedata.com/stocks&apikey=072d91d21d6b412584f8ff57874ea5d2',{
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/json'
-        }
     })
     console.log(response)
     let result = response.json()
